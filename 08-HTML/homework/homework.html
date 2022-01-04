@@ -1,0 +1,84 @@
+<!--I. Cree una página HTML básica.
+  A. Cree el diseño básico para una página HTML usando html, head y body.
+  B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".
+  C. En el cuerpo, crea tres divs.
+    1. En el primer div crea:
+      * un elemento h1 que contiene [Tu nombre].
+      * un elemento h3 que contiene "Henry".
+      * un elemento h4 que contiene "tarea de HTML / CSS".
+    2. En el segundo div crea:
+      * un elemento span que contiene texto que describe su comida favorita.
+      * un elemento 'a' que se vincula a su restaurante favorito.
+    3. En el tercer div crea:
+      * una lista desordenada con dos elementos dentro de la lista
+      * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
+    
+    II Añade un poco de estilo
+  A. Agregue la etiqueta de estilo a su documento HTML.
+  B. Asignar al tercer div el id "thirdDiv".
+  C. Asignar a los otros divs la clase "divClass".
+  D. Asignar al span que se encuentra dentro de su segundo div el id "spanId".
+  E. Agregue una regla de estilo a su elemento h1 cambiando el color del texto (Listado de colores: https://www.crockford.com/wrrrld/color.html).
+  F. Agregue una regla de estilo al elemento img dándole un ancho de 400px.
+  G. Agregue una regla de estilo a 'thirdDiv' cambiando la altura a 600px y el ancho a 500px.
+  H. Agregue una regla de estilo a 'thirdDiv' cambiando el color de fondo por el que quiera.
+  I. Cambie el tamaño de la fuente para 'spanId' a 18px.
+  J. Asignar al id 'spanId' un margen de 50px.
+  K. Asignar al id 'thirdDiv' un relleno (padding) de 50px.
+  L. Asignar al id 'thirdDiv' un borde con cualquier ancho de color y estilo que elija.
+```
+
+III. Cree una hoja de estilo externa y mueva todas las reglas de estilo anteriores a la nueva hoja de estilo.
+  A. Cree un archivo llamado styles.css en esta carpeta.
+  B. COPIE todas sus reglas de estilo en este nuevo archivo.
+  C. Agregue una etiqueta de enlace a su html que importe su nuevo archivo css.
+```-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1{
+            color: green;
+        }
+        img{
+            width: 400px;
+        }
+        #thirdDiv {
+            height: 600px;
+            width: 500px;
+            background-color: rgb(109, 109, 109);
+            padding: 50px;
+            border: solid 2px black;
+        }
+        #spanId{
+            font-size: 18px;
+            margin: 50px;
+        }
+    </style>
+    <title>Tarea HTML de Lucas Cencig</title>
+</head>
+<body>
+    <div class="divClass">
+        <h1>Lucas Cencig</h1>
+        <h3>Henry</h3>
+        <h4>tarea de HTML / CSS</h4>
+    </div>
+    <div class="divClass">
+        <span id="spanId">
+            <p>mi comida favorita es la milanesa de pollo al horno, con queso derretido, un poco de oregano y bien aceitosa.</p>
+        </span>
+        <a href="https://www.google.com/search?q=brixton+hurlingham&rlz=1C1UEAD_esAR975AR976&tbm=lcl&sxsrf=AOaemvLOilaYDI8bMvvF0Vb9MN63ig2Guw%3A1641312476868&ei=3HDUYcipNKHL1sQPocuwuAo&oq=brixton+hurlingham&gs_l=psy-ab.3..0i512k1l4j0i30k1j38.10668.13569.0.13903.10.9.1.0.0.0.120.792.8j1.9.0....0...1c.1.64.psy-ab..0.10.794...0i433i67k1j0i7i30k1j0i67k1j0i8i7i30k1j0i13k1.0.LtfR6Ah76dk#rlfi=hd:;si:12546151420960886772,l,ChJicml4dG9uIGh1cmxpbmdoYW1IxNbHwoCugIAIWiAQABgAGAEiEmJyaXh0b24gaHVybGluZ2hhbSoECAIQAJIBB2JyZXdwdWI,y,cz5607-WRIY;mv:[[-34.58969782268097,-58.632105278399834],[-34.59005777731903,-58.63254252160016]]">Brixton Hurlingham</a>
+    </div>
+    <div id="thirdDiv">
+        <ul>
+            <li><img src="https://www.lamansiondelasideas.com/wp-content/uploads/2018/02/MILANESAS-DE-BERENJENA.jpg" alt=""></li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyDX30vdnT4n50d5wtIM-bsOzT-UglKfmEQ&usqp=CAU" alt=""></li>
+        </ul>
+    </div>
+</body>
+</html>
