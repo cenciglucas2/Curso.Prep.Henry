@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    display: flex;
+    margin: auto;
+    width: 316px;
+    height: 400px;
+    margin-top: 10px;
+    border:solid rgb(0, 0, 0) 2px;
+}
+
+.descripcionPersonal{
+    margin: auto;
+    margin-top: 20px;
+}
+.descripcionPersonal h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+.descripcionPersonal h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.descripcionPersonal p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.educacion{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.educacion h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.educacion h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.educacion h4{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+}
+.educacion p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.experienciasLaborales{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.experienciasLaborales h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.experienciasLaborales h4{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.experienciasLaborales p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.experienciasLaborales ul li{
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+.skills{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.skills h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    padding: 20px;
+}
+.skills ul li{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hobbies{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.hobbies h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    padding: 20px;
+}
+.hobbies ul li{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#expectativas{
+   
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+#expectativas h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    padding: 20px;
+    color: brown;
+    font-size: 50px;
+}
+#expectativas p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 900px;
+    border: solid 2px brown;
+    padding: 20px;
+    margin-top: 10px;
+}
